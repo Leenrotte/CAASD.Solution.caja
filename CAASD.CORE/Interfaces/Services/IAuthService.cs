@@ -14,5 +14,6 @@ namespace CAASD.Core.Interfaces.Services
         bool RegistrarUsuario(UsuarioDTO usuario, string password);
         bool CambiarPassword(int usuarioId, string passwordActual, string passwordNuevo);
         bool RecuperarPassword(string email);
+        bool RegistrarClienteDesdeWeb(UsuarioDTO dto, string password);
     }
 }
